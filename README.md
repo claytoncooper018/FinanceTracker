@@ -23,6 +23,7 @@ mkdir data
 
 # Run the program:
 javac src/*.java -d out
+
 java -cp out Main
 
 # Data Files
@@ -31,7 +32,9 @@ data/transactions.csv – Your real transactions, stored locally (ignored by Git
 CSV format:
 
 YYYY-MM-DD,Description,Category,Amount
+
 2026-01-01,Salary,Income,3000.00
+
 2026-01-02,Coffee,Food,-4.50
 
 # Notes

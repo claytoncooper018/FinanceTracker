@@ -15,7 +15,7 @@ Clone the repo:
 
 git clone https://github.com/claytoncooper018/FinanceTracker.git
 
-cd finance-tracker
+cd FinanceTracker
 
 Create the data folder (if it doesn’t exist):
 

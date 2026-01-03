@@ -13,7 +13,7 @@ Fully local
 # Getting Started
 Clone the repo:
 
-git clone https://github.com/your-username/finance-tracker.git
+git clone https://github.com/claytoncooper018/finance-tracker.git
 
 cd finance-tracker
 

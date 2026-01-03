@@ -1,6 +1,5 @@
 # Personal Finance Tracker
 A simple Java console app to track your income and expenses.
-Your financial data stays local and private, so you can safely share the code on GitHub.
 
 # Features
 Add income and expense transactions with categories

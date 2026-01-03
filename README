@@ -1,41 +1,33 @@
-Personal Finance Tracker
-
+# Personal Finance Tracker
 A simple Java console app to track your income and expenses.
 Your financial data stays local and private, so you can safely share the code on GitHub.
 
-Features
-
+# Features
 Add income and expense transactions with categories
 
 View all transactions in a table
 
 See a summary of total income, expenses, and balance
 
-Fully local storage—no sensitive data is pushed to GitHub
+Fully local
 
-Getting Started
-
+# Getting Started
 Clone the repo:
 
 git clone https://github.com/your-username/finance-tracker.git
-cd finance-tracker
 
+cd finance-tracker
 
 Create the data folder (if it doesn’t exist):
 
 mkdir data
 
-
-Run the program:
-
+# Run the program:
 javac src/*.java -d out
 java -cp out Main
 
-Data Files
-
+# Data Files
 data/transactions.csv – Your real transactions, stored locally (ignored by Git)
-
-data/transactions_sample.csv – Optional fake data for testing
 
 CSV format:
 
@@ -43,8 +35,7 @@ YYYY-MM-DD,Description,Category,Amount
 2026-01-01,Salary,Income,3000.00
 2026-01-02,Coffee,Food,-4.50
 
-Notes
-
+# Notes
 Positive amounts → income
 
 Negative amounts → expenses
